@@ -13,8 +13,19 @@
     padding: 2.5rem;
 }
 .btn{
-    margin-left: 20px;
     background-color: cadetblue;
+    border: none;
+    padding: 0.5rem;
+}
+.btn1{
+    margin-left: 20px;
+    background-color: rgb(60, 186, 190);
+    border: none;
+    padding: 0.5rem;
+}
+.btn2{
+    margin-left: 20px;
+    background-color: red;
     border: none;
     padding: 0.5rem;
 }

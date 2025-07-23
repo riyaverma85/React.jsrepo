@@ -1,11 +1,12 @@
-import Counter from "./counter";
+// import Counter from "./counter";
 
-const App=()=>{
-  return(
-    <>
-    <h1 align="center">Counter App!!</h1>
-    <Counter/>
-    </>
-  )
-}
-export default App;
+// const App=()=>{
+//   return(
+//     <>
+//     <h1 align="center">Counter App!!</h1>
+//     <Counter/>
+//     </>
+//   )
+// }
+// export default App;
+

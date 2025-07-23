@@ -12,7 +12,14 @@ const counterSlice=createSlice({
               
         },
         decrement:(state)=>{
-            state.count --;
+            if(state.count==0)
+            {
+                alert("Not Less Than 0!")
+            }
+            else{
+             state.count --;
+            }
+            
         }
     }
 })

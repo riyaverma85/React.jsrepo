@@ -6,11 +6,13 @@ const CounterTool=()=>{
     const dispatch=useDispatch();
     return(
         <>
-        <div>
-            <h2>Counter App!!</h2>
+
+        <h2 id="top">Counter App!!</h2>
+        <div className="counter">
+            
             <h3>{data}</h3>
-            <button onClick={()=>{dispatch(increment())}}>Increment</button>
-            <button onClick={()=>{dispatch(decrement())}}>Decrement</button>
+            <button onClick={()=>{dispatch(increment())}} className="btn">Increment</button>
+            <button onClick={()=>{dispatch(decrement())}} className="btn1">Decrement</button>
         </div>
         </>
     )

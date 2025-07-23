@@ -3,7 +3,7 @@
 // const App=()=>{
 //   return(
 //     <>
-//     <h1 align="center">Counter App!!</h1>
+//     <h1 id="top">Counter App!!</h1>
 //     <Counter/>
 //     </>
 //   )

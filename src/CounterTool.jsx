@@ -8,6 +8,7 @@ const CounterTool=()=>{
         <>
         <div>
             <h2>Counter App!!</h2>
+            <h3>{data}</h3>
             <button onClick={()=>{dispatch(increment())}}>Increment</button>
             <button onClick={()=>{dispatch(decrement())}}>Decrement</button>
         </div>

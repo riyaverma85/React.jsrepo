@@ -19,9 +19,9 @@ const Counter=()=>{
           
           <div className="counter">
           <h2>{count}</h2>
-          <button onClick={()=>{setCount(count+1)}}>Increment</button>
-          <button onClick={()=>{setCount(count-1)}}>Decrement</button>
-          <button onClick={()=>setCount(0)}>Reset</button>
+          <button onClick={()=>{setCount(count+1)}} className="btn">Increment</button>
+          <button onClick={()=>{setCount(count-1)}}className="btn1">Decrement</button>
+          <button onClick={()=>setCount(0)} className="btn2">Reset</button>
           </div>
         </>
     )

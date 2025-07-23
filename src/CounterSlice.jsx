@@ -20,8 +20,12 @@ const counterSlice=createSlice({
              state.count --;
             }
             
+        },
+        reset:(state)=>{
+            state.count=0;
         }
+
     }
 })
-export const{increment,decrement}=counterSlice.actions;
+export const{increment,decrement,reset}=counterSlice.actions;
 export default counterSlice.reducer;

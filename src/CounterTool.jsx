@@ -1,6 +1,6 @@
 
 import { useSelector,useDispatch } from "react-redux";
-import { increment,decrement } from "./CounterSlice";
+import { increment,decrement,reset } from "./CounterSlice";
 const CounterTool=()=>{
     const data=useSelector((state)=>state.counter.count)
     const dispatch=useDispatch();
@@ -13,6 +13,7 @@ const CounterTool=()=>{
             <h3>{data}</h3>
             <button onClick={()=>{dispatch(increment())}} className="btn">Increment</button>
             <button onClick={()=>{dispatch(decrement())}} className="btn1">Decrement</button>
+            <button onClick={()=>{dispatch(reset())}} className="btn2">Reset</button>
         </div>
         </>
     )

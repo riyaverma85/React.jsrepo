@@ -10,3 +10,13 @@
 // }
 // export default App;
 
+//===============================================USING TOOLKITSLICE===========================================================================
+import CounterTool from "./CounterTool";
+const App=()=>{
+  return(
+    <>
+       <CounterTool/>
+    </>
+  )
+}
+export default App;

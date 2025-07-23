@@ -3,7 +3,7 @@ import Counter from "./counter";
 const App=()=>{
   return(
     <>
-    <h1>Counter App!!</h1>
+    <h1 align="center">Counter App!!</h1>
     <Counter/>
     </>
   )
